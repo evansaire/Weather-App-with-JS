@@ -47,16 +47,13 @@ const api= {
     baseurl: "https://api.openweathermap.org/data/2.5"
 }
 const search = document.querySelector('.search');
-search.addEventListener('keypress', setQuery);
+const btn = document.querySelector('.btn');
+btn.addEventListener('click', setQuery);
 // console.log(search.value);
 
 // Getting searched location
-function setQuery(evt) {
-    if (evt.keyCode == 13 ) {
-        console.log(search.value);
-        getSearch(search.value)
-        // let query = search.value
-    }
+function setQuery() {
+        getSearch(search.value);
 }
 
 // Using search location to query api
