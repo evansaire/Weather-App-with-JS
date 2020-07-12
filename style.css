@@ -45,6 +45,15 @@ margin-top: -60px;
     border-radius: 50%;
 
 }
+.btn{
+    margin:5px;
+    border-radius: 2px;
+    padding:8px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.075);
+    border: none;
+    color: whitesmoke;
+}
 .search{
     border-radius: 4px;
     padding: 7px;
