@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="app">
+        <div class="container">
+            <div class="app-form">
+                <input type="text" autocomplete="off" class="search" placeholder="Enter city">
+            </div>
+
+            <div class="icon-layout">
+                <div class="icon">
+                <img id="icon" src="" width="120px" >
+                </div>
+            </div>
+
+            <main>
+                <div class="city">Benin, Nigeria </div>
+                <div class="date"> 12th, June 2020</div>
+
+                <div class="weather-layout">
+                    <div class="temp" onclick="celFah()">
+                        <span class="tempdeg">15</span>
+                        <span class="tempsign">°</span>
+                        <span class="tempunit">C</span>
+
+                    </div>
+                    <div class="weather">Mostly Sunny</div>
+                </div>
+
+                <div class="more">
+                    <div>
+                        <p class="label">Sunrise</p>
+                        <h2 class="sunrise">04:56</h2>
+                    </div>
+                    <div>
+                        <p class="label">Sunset</p>
+                        <h2 class="sunset">21:15</h2>
+                    </div>
+                    <div>
+                        <p class="label">Humidity</p>
+                        <h2 class="humidity">55%</h2>
+                    </div>
+                    
+                </div>
+                    <div class="footer"> Sinzu Weather </div>
+            </main>
+           
+        </div>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
