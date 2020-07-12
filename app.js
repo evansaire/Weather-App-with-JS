@@ -58,7 +58,7 @@ function setQuery() {
 
 // Using search location to query api
 function getSearch(query) {
-    fetch('http://api.openweathermap.org/data/2.5/weather?q='+query+'&units=metric&APPID=a3b6f15258058e4c4430dfc2ae1f7424')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+query+'&units=metric&APPID=a3b6f15258058e4c4430dfc2ae1f7424')
     .then(weather =>{
         return weather.json();
     }).then(displayWeather);
