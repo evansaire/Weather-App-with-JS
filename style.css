@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'montserrat', 'sans-serif';
+    color: white;
+    text-align: center;
+}
+
+.app{
+    height: 100vh;
+    background-color: rgb(75, 166, 219);
+    /* background-color: rgb(255, 151, 82); */
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3),rgba(0,0,0,0.6));
+}
+.container{
+    padding: 20px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+
+}
+.app-form{
+padding: 30px;
+/* background: red; */
+margin-top: -60px;
+}
+.icon-layout{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+}
+.icon{
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+    /* background-color: rgb(255, 231, 231); */
+    border-radius: 50%;
+
+}
+.search{
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 15px;
+    width: 300px;
+    height: 40px;
+    color:grey;
+    background-color: white;
+    border:solid 1px gray;
+    /* bor */
+}
+.search:focus{
+    color:rgb(22, 22, 22);
+    border: solid 2px rgba(0, 110, 255, 0.493);
+}
+
+.city{
+    font-size: 18px;;
+}
+.date{
+    font-size: 14px;
+    color: #cecece;
+}
+
+.temp{
+    padding: 25px 0px;
+    text-shadow: 0px 3px rgba(0,0,0,0.4);
+}
+
+.tempdeg{
+    font-size: 100px;
+    font-weight: 900;
+}
+.weather{
+    /* background-color: red; */
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+.more{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 20px;
+}
+.more>div:nth-child(even){
+    border-left: solid 2px grey ;
+    border-right: solid 2px grey ;
+
+}
